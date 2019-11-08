@@ -1,0 +1,4 @@
+chalk (used for colouring the cosole output)
+nodemon (useed to keep on running the servers )
+validator(used for validation purpose)
+yargs (used to parse the command line arguments)

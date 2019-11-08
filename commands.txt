@@ -1,0 +1,6 @@
+npm install
+npm init
+npm install module_name
+node file_name.js
+npm i module_name@10.2.0
+npm install module_name@1.18.5 -g
