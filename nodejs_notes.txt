@@ -24,4 +24,20 @@
 
 13.json = JavaScript object notation
 
-14.arrow function did not bind "this"
+14.arrow function did not bind there own "this" value they follow its parenst this value
+
+15.normal functions will have there own this binding
+
+16.synchronous means the program will ececute line wise while asychronous means not line wise
+   node provides several asynchronous fucntions 
+
+17. call stack explanation
+
+18.asychronous structure : call stack =>node api(which handle events)=>callback queue=>event loop
+
+19.event loop will be touch with both call stack and call back queue the elements in the call back queue 
+   will be added to call stack only when call stack is empty
+
+20.to node api the event are added
+
+21.
