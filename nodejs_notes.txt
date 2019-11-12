@@ -42,3 +42,6 @@
 
 21.with handle bars are used to render dynamic web pages and used to use the reuable code
 
+22.query string
+
+23.
