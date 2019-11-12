@@ -40,4 +40,5 @@
 
 20.to node api the event are added
 
-21.
+21.with handle bars are used to render dynamic web pages and used to use the reuable code
+
