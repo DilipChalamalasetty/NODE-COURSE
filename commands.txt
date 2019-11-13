@@ -6,3 +6,4 @@ npm i module_name@10.2.0
 npm install module_name@1.18.5 -g
 npm inint
 nodemon src/app.js -e js,hbs
+mongod.exe --dbpath=../../mongodb-data
