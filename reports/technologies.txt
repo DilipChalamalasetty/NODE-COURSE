@@ -1,0 +1,6 @@
+elastic search
+pandorabots doc
+spacy
+rasa
+html,css , bootstrap
+node js,
