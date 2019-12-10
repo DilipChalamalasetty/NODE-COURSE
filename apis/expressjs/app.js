@@ -14,7 +14,7 @@ app.use(bodyParser.urlencoded({ extended: true }))
 app.use(bodyParser.json())
 
 
-mongoose.Promise = global.Promise;
+
 
 // Connecting to the database
 mongoose.connect(dbConfig.url, {

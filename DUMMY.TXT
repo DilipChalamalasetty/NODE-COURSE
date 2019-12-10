@@ -1,0 +1,4 @@
+• Supporting tasks such as classification, tokenization, stemming,tagging, parsing, and semantic reasoning. 
+• Supports Porter stemmer,Lancaster stemmer,WordNet stemmer,Non english stemmers, Snowball stemmers(supports for 17 languages)
+• Provides easy-to-use interfaces to over 50 corpora and lexical resources such as WordNet. 
+• We can take more advantage of concepts behind NLP by reffering the book https://www.nltk.org/book/
