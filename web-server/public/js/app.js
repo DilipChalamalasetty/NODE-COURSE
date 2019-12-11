@@ -9,8 +9,9 @@ const message2=document.querySelector('#message-2')
 weatherForm.addEventListener('submit',(e)=>{
     e.preventDefault()
     const location=search.value
+    console.log(location)
     const url='http://127.0.0.1:3000/weather?address='+location
-    
+    console.log(url)
     fetch(url).then((response)=>{
         response.json().then((data)=>{
             if(data.error){

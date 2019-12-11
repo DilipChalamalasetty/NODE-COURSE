@@ -20,6 +20,12 @@ hbs.registerPartials(partialsPath)
 //setup static directory to serve
 app.use(express.static(publicDirectoryPath))
 
+app.use(function(req, res, next) {
+res.header("Access-Control-Allow-Origin", "*");
+res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept, Access-Control-Allow-Origin, Cache-Control");
+next()
+});
+
 app.get('',(req,res)=>{
     res.render('index',{
         title:"Weather",
